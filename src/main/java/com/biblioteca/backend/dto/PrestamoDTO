@@ -1,0 +1,15 @@
+public class PrestamoDTO {
+    private Long usuarioId;
+    private Long libroId;
+    private String fechaDevolucion;
+
+    // Getters y Setters
+    public Long getUsuarioId() { return usuarioId; }
+    public void setUsuarioId(Long usuarioId) { this.usuarioId = usuarioId; }
+
+    public Long getLibroId() { return libroId; }
+    public void setLibroId(Long libroId) { this.libroId = libroId; }
+
+    public String getFechaDevolucion() { return fechaDevolucion; }
+    public void setFechaDevolucion(String fechaDevolucion) { this.fechaDevolucion = fechaDevolucion; }
+}
