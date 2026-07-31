@@ -13,6 +13,7 @@ import java.util.Optional;
 
 @RestController
 @RequestMapping("/libros")
+@CrossOrigin(origins = "http://localhost:5173")
 public class LibroController {
 
     private final LibroRepository libroRepository;
